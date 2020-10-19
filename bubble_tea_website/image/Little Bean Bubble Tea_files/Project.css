@@ -1,0 +1,151 @@
+header
+{
+    background-image: url(image/tempindexbackgroundedited.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+
+img
+{
+  padding-top: 30px;  
+}
+nav 
+{
+    display: inline;
+    /*-image: url(image/BackgoundEdited.png);*/
+    background-repeat: no-repeat;
+}
+nav a
+{
+    font-size: 20px;
+    font-family: serif;
+    color:  #009900;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 30px;
+    
+}
+body
+{
+    background-color: #ffffff;
+    padding-left: 30px;
+}
+
+p
+{
+    font-size: 20px;
+    font-family:sans-serif;
+    padding-left: 10px;
+}
+
+dt 
+{
+    padding-bottom: 10px;
+}
+dd
+{
+    padding-bottom: 10px;
+
+}
+dl 
+{
+    font-size: 20px;
+    font-family:sans-serif;
+
+}
+
+table
+{
+    width: 75%;
+    margin: auto;
+    border: 2px solid #7A7A7A;
+}
+
+caption
+{
+    font-family:sans-serif;
+    padding-top: 50px;
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+}
+
+tr td
+{
+    font-size: 20px;
+    padding-left: 0.3em;
+
+}
+
+tr:nth-of-type(even)
+{
+    background-color: beige;
+}
+
+tr:nth-of-type(odd)
+{
+    background-color: azure;
+}
+
+tr:first-of-type
+{
+    background-color:bisque;
+}
+
+div img
+{
+    padding-right: 30px;
+}
+
+figure 
+{
+    display: inline-block;
+}
+
+@media only screen and (max-width:768px)
+{   
+    main
+    {
+        margin-left: 0;
+    }
+    header
+    {
+        background-image: url(image/logotemp.jpg);
+        background-size: cover;
+    }
+    h1, h2,
+    { 
+        font-size: 100%; 
+    }
+
+    nav a
+    {
+        display: block;
+        border-bottom: 2px ridge #ff0000;
+
+    }
+}
+
+@media only screen and (max-width: 1024px)
+{
+     main
+    {
+        margin-left: 0;
+    }
+    header
+    {
+        background-image: url(image/logotemp.jpg);
+        background-size: cover;
+    }
+    h1, h2 
+    { 
+        font-size: 120%; 
+    }
+    nav a
+    {
+        display: block;
+        border-bottom: 2px ridge #ff0000;
+        background-color:bisque;
+    }
+   
+}

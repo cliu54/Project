@@ -2,8 +2,9 @@
    CSC 225 - Summer 2019
 
 
-   B. Bird - 04/28/2019
+   Chenghao Liu V00841275 
    (Add your name/studentID/date here)
+
 */ 
 
 import java.awt.Color;

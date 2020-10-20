@@ -6,7 +6,7 @@
    (your code in A3Algorithms.java will take instances of this interface
     as parameters)
 
-   B. Bird - 07/06/2019
+   Chenghao Liu V00841275 
 */ 
 
 import java.awt.Color;

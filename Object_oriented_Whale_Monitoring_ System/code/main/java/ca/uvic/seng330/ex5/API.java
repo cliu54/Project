@@ -8,6 +8,7 @@ import java.net.MalformedURLException;
 
 public interface API {
 
+
    public JSONObject call(double latitude, double longitude) throws FileNotFoundException, MalformedURLException, IOException;
 
 }

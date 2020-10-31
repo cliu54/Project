@@ -1,4 +1,4 @@
-package ca.uvic.seng330.ex4;
+package ca.uvic.seng330.ex5;
 
 import java.util.*;
 import java.lang.Iterable;
@@ -84,6 +84,11 @@ public class WhaleCatalog implements Iterable<Whale>{
 	
 	public Iterator<Whale> iterator(){
 		return this.whales.iterator();
+	}
+
+	public int size(){
+
+		return this.whales.size();
 	}
 }
 

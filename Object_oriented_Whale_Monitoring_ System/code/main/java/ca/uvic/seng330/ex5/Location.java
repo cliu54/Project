@@ -1,6 +1,5 @@
-package ca.uvic.seng330.ex4;
+package ca.uvic.seng330.ex5;
 
-import java.util.*;
 import java.lang.*;
 
 public class Location implements Comparable<Location>{
@@ -9,13 +8,30 @@ public class Location implements Comparable<Location>{
     public double latitude;
 
     public Location(double longitude, double latitude){
-        this.longitude= longitude;
-        this.latitude = latitude;
+        if (latitude > 90 || latitude < -90 || longitude > 180 || longitude < -180)
+        {
+            this.longitude = 0.0;
+            this.latitude = 0.0;
+        }
+        else
+        {
+            this.longitude = longitude;
+            this.latitude = latitude;
+        }
     }
 
     public Location(Location location){
-        this.longitude= location.getLongitude();
-        this.latitude = location.getLatitude();
+        if (location.getLatitude() > 90 || location.getLatitude() < -90 ||
+                location.getLongitude() > 180 || location.getLongitude() < -180)
+        {
+            this.longitude = 0.0;
+            this.latitude = 0.0;
+        }
+        else
+        {
+            this.longitude = location.getLongitude();
+            this.latitude = location.getLatitude();
+        }
     }
 
     public int compareTo(Location location){

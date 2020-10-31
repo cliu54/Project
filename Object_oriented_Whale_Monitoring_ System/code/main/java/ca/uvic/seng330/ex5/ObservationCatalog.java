@@ -1,48 +1,49 @@
-package ca.uvic.seng330.ex4;
+package ca.uvic.seng330.ex5;
 
+import java.io.IOException;
 import java.util.*;
 
 public class ObservationCatalog implements Iterable<Observation>{
-    private ArrayList<Observation> catalog;
+    private ArrayList<Observation> observations;
 
     public ObservationCatalog(){
-        this.catalog = new ArrayList<Observation>();
+        this.observations = new ArrayList<Observation>();
     }
 
     public ObservationCatalog(ObservationCatalog obs) {
-        this.catalog = obs.getObservationCatalog();
+        this.observations = obs.getObservationCatalog();
     }
 
     private ArrayList<Observation> getObservationCatalog(){
-        return this.catalog;
+        return this.observations;
     }
     public Observation getObservation(int id) {
-        return catalog.get(id);
+        return observations.get(id);
     }
 
-    public Observation addObservation(Reporter reporter, Whale whale, Date timeStamp, Location location) {
+    public Observation addObservation(Reporter reporter, Whale whale, Date timeStamp, Location location) throws IOException {
 
         Observation newObservation = createObservation(getId(), reporter, whale, timeStamp, location);
-        catalog.add(newObservation);
+        observations.add(newObservation);
         return newObservation;
     }
 
     private int getId(){
-        return this.catalog.size();
+        return this.observations.size();
     }
 
-    public Observation createObservation(int id, Reporter reporter, Whale whale, Date timeStamp, Location location){
+    public Observation createObservation(int id, Reporter reporter, Whale whale, Date timeStamp, Location location) throws IOException {
         Observation o = new Observation(id, reporter, whale, timeStamp, location);
         return o;
     }
 
     public int size(){
-        return catalog.size();
+        return observations.size();
     }
 
     public void sortById(){
-        if(this.catalog.size() > 1)
-        Collections.sort(this.catalog,new CompareByObservationID());
+        if(this.observations.size() > 1)
+        Collections.sort(this.observations,new CompareByObservationID());
     }
 
     public Optional<Observation> searchById(int id){
@@ -51,32 +52,32 @@ public class ObservationCatalog implements Iterable<Observation>{
 
         sortById();
 
-        int index = Collections.binarySearch(this.catalog, obs, new CompareByObservationID());
+        int index = Collections.binarySearch(this.observations, obs, new CompareByObservationID());
 
         if (index < 0)
             return Optional.empty();
         else
-            return Optional.of(this.catalog.get(index));
+            return Optional.of(this.observations.get(index));
 
     }
 
     public void sortByLocation(){
-        if(this.catalog.size() > 1)
-        Collections.sort(this.catalog,new CompareByLocation());
+        if(this.observations.size() > 1)
+        Collections.sort(this.observations,new CompareByLocation());
     }
 
-    public Optional<Observation> searchByLocation(double longitude,double latitude){
+    public Optional<Observation> searchByLocation(double longitude,double latitude) throws IOException {
 
         Observation obs = new Observation(new Location(longitude,latitude));
 
         sortByLocation();
 
-        int index = Collections.binarySearch(this.catalog,obs,new CompareByLocation());
+        int index = Collections.binarySearch(this.observations,obs,new CompareByLocation());
 
         if(index < 0)
             return Optional.empty();
         else
-            return Optional.of(this.catalog.get(index));
+            return Optional.of(this.observations.get(index));
 
     }
 
@@ -99,7 +100,7 @@ public class ObservationCatalog implements Iterable<Observation>{
     }
 
     public Iterator<Observation> iterator(){
-        return this.catalog.iterator();
+        return this.observations.iterator();
     }
 
     

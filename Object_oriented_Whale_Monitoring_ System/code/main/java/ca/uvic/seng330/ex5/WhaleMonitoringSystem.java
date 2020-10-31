@@ -1,7 +1,6 @@
-package ca.uvic.seng330.ex4;
+package ca.uvic.seng330.ex5;
+import java.io.IOException;
 import java.util.Date;
-
-import java.util.ArrayList;
 
 public class WhaleMonitoringSystem {
 
@@ -45,7 +44,7 @@ public class WhaleMonitoringSystem {
 		return this.reporters.addReporter(reporterName);
 	}
 
-	public Observation addObservation(Reporter reporter, Whale whale, Location location, Date timeStamp){
+	public Observation addObservation(Reporter reporter, Whale whale, Location location, Date timeStamp) throws IOException {
 
 		Observation obs=this.observations.addObservation(reporter, whale, timeStamp, location);
 		reporter.addObservation(obs);

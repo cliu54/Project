@@ -1,35 +1,39 @@
-package ca.uvic.seng330.ex4;
+package ca.uvic.seng330.ex5;
 
 import java.util.ArrayList;
 
 public class ReporterCatalog {
 
-    private ArrayList<Reporter> reporter_list;
+    private ArrayList<Reporter> reporters;
 
     public ReporterCatalog(){
-        this.reporter_list= new ArrayList<Reporter>();
+        this.reporters= new ArrayList<Reporter>();
     }
 
      public ReporterCatalog(ReporterCatalog reporterCatalog){
-        this.reporter_list= reporterCatalog.getReporterCatalog();
+        this.reporters= reporterCatalog.getReporterCatalog();
     }
 
 
     public Reporter getReporter(int id)
     {
-        return reporter_list.get(id);
+        return reporters.get(id);
     }
 
     public Reporter addReporter(String reporterName)
     {
         Reporter newReporter = createReporter(getId(),reporterName);
-        reporter_list.add(newReporter);
+        reporters.add(newReporter);
 
         return newReporter;
     }
 
     private int getId(){
-        return this.reporter_list.size();
+        return this.reporters.size();
+    }
+
+    public int size(){
+        return this.reporters.size();
     }
 
     private Reporter createReporter(int id,String reporterName){
@@ -37,7 +41,7 @@ public class ReporterCatalog {
     }
     private ArrayList<Reporter> getReporterCatalog()
     {
-        return reporter_list;
+        return reporters;
     }
 
 }

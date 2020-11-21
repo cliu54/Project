@@ -9,3 +9,5 @@
 * unit tests of the JavaFX code, showing how the model changes are managed, and one GUI test using TestFX.
 * The source code of the finished MVC pattern.
 
+## Program ran by Gradle 
+

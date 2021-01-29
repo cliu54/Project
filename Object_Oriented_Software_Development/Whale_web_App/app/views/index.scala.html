@@ -1,0 +1,19 @@
+@()
+
+@main("Welcome") {
+    <section id="content">
+        <link rel="stylesheet" href="assets/stylesheets/main.css">
+        <div class="wrapper doc">
+            <img src="assets/images/uvic_logo.jpeg" alt="Uvic Logo" class="small-5 medium-4 large-3 center" />
+            <article>
+                <h2 style="text-align: center;">Welcome to Report a Whale Sighting!</h2>
+                <form action="/whales" style="text-align: center;">
+                    <input class="indexButton" type="submit" value="Whales"/>
+                </form>
+                <form action="/observations" style="text-align: center;">
+                    <input class="indexButton" type="submit" value="Observations"/>
+                </form>
+            </article>
+        </div>
+    </section>
+}

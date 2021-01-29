@@ -1,0 +1,44 @@
+@import play.mvc.Http.Request
+@(observations: Seq[Observation], form1: Form[ObservationData], form2: Form[ObservationData])(implicit request: Request, messages: play.i18n.Messages)
+    @main("Observations") {
+        <link rel="stylesheet" href="assets/stylesheets/main.css">
+        <div style="text-align: center;">
+            <h1 style="text-align: center;">Recorded Observations</h1>
+            <h3 style="text-align: center;">Search Whales by Date (yyyymmdd)</h3>
+            <div style="display: block;
+                text-align: center;">
+            @helper.form(routes.ObservationController.searchObservations) {
+                @helper.CSRF.formField
+                @helper.inputText(form1("sightingDate"))
+                <button type="submit">Search</button>
+            }
+            </div>
+            <br>
+            <table class="center">
+                <thead>
+                    <tr><th>Id</th><th>Species</th><th>Estimated Weight</th><th>Gender</th><th>Sighting Date</th></tr>
+                </thead>
+                <tbody>
+                @for(o <- observations) {
+                    <tr><td>@o.getId()</td>
+                        <td>@o.getSpecies()</td>
+                        <td>@o.getEst_size()</td>
+                        <td>@o.getGender()</td>
+                        <td>@o.getSightingDate().toString()</td></tr>
+                }
+                </tbody>
+            </table>
+            <h1 style="text-align: center;">Add a New Observation</h1>
+            <div style="display: block;
+                text-align: center;">
+            @helper.form(routes.ObservationController.createObservation) {
+                @helper.CSRF.formField
+                @helper.inputText(form2("Species"))
+                @helper.inputText(form2("est_size"))
+                @helper.inputText(form2("sightingDate"))
+                @helper.inputRadioGroup(form2("Gender"), Seq("Male" -> "Male", "Female" -> "Female"))
+                <button type="submit">Add Observation</button>
+            }
+            </div>
+        </div>
+    }

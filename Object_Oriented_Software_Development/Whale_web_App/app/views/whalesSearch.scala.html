@@ -1,0 +1,52 @@
+@import play.mvc.Http.Request
+@(whales: Seq[Whale], form1: Form[WhaleData], form2: Form[WhaleData])(implicit request: Request, messages: play.i18n.Messages)
+@mainSearch("Whales") {
+
+<div style="text-align: center;">
+    <link rel="stylesheet" href="search/assets/stylesheets/main.css">
+    <h1 style="text-align:center;">Recorded Whales</h1>
+
+    <table class="center">
+        <thead>
+        <tr><th>Id</th><th>Species</th><th>Estimated Weight</th><th>Gender</th></tr>
+        </thead>
+
+        <tbody>
+        @for(w <- whales) {
+        <tr><td>@w.getId()</td>
+            <td>@w.getSpecies()</td>
+            <td>@w.getEstimated_weight()</td>
+            <td>@w.getGender()</td>
+        </tr>
+        }
+        </tbody>
+
+    </table>
+</div>
+
+<h1 style="text-align:center;">
+    Add a New Whale
+</h1>
+
+<div style="display:block; text-align:center;">
+    @helper.form(action = routes.WhaleController.createWhale()) {
+    @helper.CSRF.formField
+    @helper.inputText(form1("Species"))
+    @helper.inputText(form1("est_size"))
+    @helper.inputRadioGroup(form1("Gender"), Seq("Male" -> "Male", "Female" -> "Female"))
+    <button type="submit">Add New Whale</button>
+    }
+</div>
+
+<h1 style="text-align:center;">
+    Search by Species
+</h1>
+<div style="display:block; text-align:center;">
+    @helper.form(action = routes.WhaleController.whaleSearch()){
+    @helper.CSRF.formField
+    @helper.inputText(form2("Species"))
+    <button>Search by Species</button>
+}
+</div>
+
+}

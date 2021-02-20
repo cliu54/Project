@@ -2,6 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm_Data_Structure/Algorithm_Data_Structure.iml" filepath="$PROJECT_DIR$/Algorithm_Data_Structure/Algorithm_Data_Structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Machine_Learning/Expeiments And Analysis.iml" filepath="$PROJECT_DIR$/Machine_Learning/Expeiments And Analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Machine_Learning/Experiments And Analysis.iml" filepath="$PROJECT_DIR$/Machine_Learning/Experiments And Analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Machine_Learning/Machine_Learning.iml" filepath="$PROJECT_DIR$/Machine_Learning/Machine_Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Object_Oriented_Software_Development/Object_Oriented_Software_Development.iml" filepath="$PROJECT_DIR$/Object_Oriented_Software_Development/Object_Oriented_Software_Development.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Project.iml" filepath="$PROJECT_DIR$/.idea/Project.iml" />
     </modules>
   </component>

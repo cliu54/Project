@@ -1,3 +1,6 @@
+## Video demonstration: https://www.youtube.com/watch?v=AWxzDVgJjkY
+1. GUI Surface 
+2. JavaFx automated testing
 
 # Project
 1. Extend the starter GUI app that allows users to enter observations of Whales, and shows a chart of observations.
@@ -10,4 +13,6 @@
 * The source code of the finished MVC pattern.
 
 ## Program ran by Gradle 
+click on the Gradle task. There is an option under the application folder called run. Click on this and a GUI window
+pop out. Then you can play around the surface by adding up the observation.
 

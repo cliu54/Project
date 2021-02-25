@@ -1,7 +1,7 @@
 ## Video demonstration: https://www.youtube.com/watch?v=AWxzDVgJjkY
 1. GUI Surface 
 2. JavaFx automated testing
-3. 
+
 # Project
 1. Extend the starter GUI app that allows users to enter observations of Whales, and shows a chart of observations.
 	Use MVC and Observer concepts to handle state changes. The final code demonstrates how the number of whales of a given species entered is reflected in the whale chart. 

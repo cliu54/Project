@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uvic.seng330.ex5.DriverTest" tests="27" skipped="0" failures="0" errors="0" timestamp="2020-11-06T04:33:58" hostname="Users-MBP.gv.shawcable.net" time="12.466">
+  <properties/>
+  <testcase name="testCompareWhaleByWeight()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.84"/>
+  <testcase name="testWhale_Gender()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.595"/>
+  <testcase name="testSortByLength()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.587"/>
+  <testcase name="testGetObservationCatalog()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.582"/>
+  <testcase name="testWhale_Length()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.671"/>
+  <testcase name="testGetReporterCatalog()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.578"/>
+  <testcase name="testObservation_GetReporter()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.58"/>
+  <testcase name="testSortByWeight()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.578"/>
+  <testcase name="testObservation_Size()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.692"/>
+  <testcase name="testIllegalReporter()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.587"/>
+  <testcase name="testWhale_Alive()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.737"/>
+  <testcase name="testWhale_GetId()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.585"/>
+  <testcase name="testObservation_GetWeather()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.616"/>
+  <testcase name="testGetIdObservationCatalog()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.577"/>
+  <testcase name="testSortObservationByLocation()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.615"/>
+  <testcase name="testGetIdWhaleCatalog()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.582"/>
+  <testcase name="testGetWhaleCatalog()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.672"/>
+  <testcase name="testGetIdReporterCatalog()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.539"/>
+  <testcase name="testWhale_SetWeight()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.549"/>
+  <testcase name="testWeather()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.643"/>
+  <testcase name="testWhale_GetBreed()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.006"/>
+  <testcase name="testSearchByLocation()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.009"/>
+  <testcase name="testSortObservationByID()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.004"/>
+  <testcase name="testIllegalWhale()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.005"/>
+  <testcase name="testSearchObservationByID()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.004"/>
+  <testcase name="testCompareWhaleByLength()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.005"/>
+  <testcase name="testReporter_GetId()" classname="ca.uvic.seng330.ex5.DriverTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

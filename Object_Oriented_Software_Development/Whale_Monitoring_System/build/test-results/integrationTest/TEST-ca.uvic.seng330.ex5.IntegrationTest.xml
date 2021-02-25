@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ca.uvic.seng330.ex5.IntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-30T04:22:55" hostname="DESKTOP-KM3FNDM" time="0.205">
+  <properties/>
+  <testcase name="testWeatherService()" classname="ca.uvic.seng330.ex5.IntegrationTest" time="0.205"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

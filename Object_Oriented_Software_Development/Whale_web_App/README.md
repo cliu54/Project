@@ -1,3 +1,10 @@
+## Video demonstration: https://www.youtube.com/watch?v=eneeZsE-UdY
+1. Illustrate how to compile and run in sbt
+2. play around whale/observation add and search function in the whale web application
+
+Note,There is an issue with build.sbt after I uploaded the project to Github. I will resolve this issue as soon as 
+possible. The codebase in Github is the same as I ran from my local machine. 
+
 ## Project Objectives
 - Using Play framework, and learning about web development frameworks and architecture.
 - Implementing a web app using java: routing, controllers, models, views. 

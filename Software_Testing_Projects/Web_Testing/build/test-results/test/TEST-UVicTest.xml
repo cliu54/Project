@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="UVicTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-04T13:55:03" hostname="Chenghaos-MacBook-Pro.local" time="17.212">
+  <properties/>
+  <testcase name="cscAppearCorrectnessTest()" classname="UVicTest" time="3.766"/>
+  <testcase name="searchButtonAppears()" classname="UVicTest" time="2.978"/>
+  <testcase name="cscLaunchTest()" classname="UVicTest" time="3.458"/>
+  <testcase name="containSearchButtonTest()" classname="UVicTest" time="2.538"/>
+  <testcase name="phoneNumberCheck()" classname="UVicTest" time="2.322"/>
+  <testcase name="loadPageTest()" classname="UVicTest" time="2.14"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Mar. 04, 2021 5:55:04 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar. 04, 2021 5:55:07 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar. 04, 2021 5:55:10 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar. 04, 2021 5:55:14 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar. 04, 2021 5:55:16 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar. 04, 2021 5:55:19 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

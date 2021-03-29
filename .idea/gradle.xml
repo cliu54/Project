@@ -20,6 +20,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Software_Testing_Projects" />
+            <option value="$PROJECT_DIR$/Software_Testing_Projects/JPacman" />
           </set>
         </option>
       </GradleProjectSettings>

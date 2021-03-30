@@ -1,4 +1,6 @@
 # Project
+This is my individual project. I designed a javaScript game similar to super mario for fun.
+
 Video Demo:
 https://youtu.be/7_49q3U95Jc
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.jpacman.game.GameTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-25T04:11:01" hostname="Chenghaos-MacBook-Pro.local" time="0.037">
+  <properties/>
+  <testcase name="GameStartTest()" classname="nl.tudelft.jpacman.game.GameTest" time="0.029"/>
+  <testcase name="EndOfGame()" classname="nl.tudelft.jpacman.game.GameTest" time="0.002"/>
+  <testcase name="GameInProgress()" classname="nl.tudelft.jpacman.game.GameTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

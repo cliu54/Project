@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.jpacman.board.OccupantTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-03-25T04:11:01" hostname="Chenghaos-MacBook-Pro.local" time="0.034">
+  <properties/>
+  <testcase name="noStartSquare()" classname="nl.tudelft.jpacman.board.OccupantTest" time="0.002"/>
+  <testcase name="testReoccupy()" classname="nl.tudelft.jpacman.board.OccupantTest" time="0.025"/>
+  <testcase name="testleaveSquare()" classname="nl.tudelft.jpacman.board.OccupantTest" time="0.001"/>
+  <testcase name="testOccupy()" classname="nl.tudelft.jpacman.board.OccupantTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

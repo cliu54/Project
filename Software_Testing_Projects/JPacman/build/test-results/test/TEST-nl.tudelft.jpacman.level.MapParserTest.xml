@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.jpacman.level.MapParserTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-03-25T04:11:02" hostname="Chenghaos-MacBook-Pro.local" time="0.052">
+  <properties/>
+  <testcase name="testPlayerAndSpace()" classname="nl.tudelft.jpacman.level.MapParserTest" time="0.005"/>
+  <testcase name="testGhost()" classname="nl.tudelft.jpacman.level.MapParserTest" time="0.003"/>
+  <testcase name="testSpace()" classname="nl.tudelft.jpacman.level.MapParserTest" time="0.004"/>
+  <testcase name="testWall()" classname="nl.tudelft.jpacman.level.MapParserTest" time="0.005"/>
+  <testcase name="badWeatherTestInvalidSysmbol()" classname="nl.tudelft.jpacman.level.MapParserTest" time="0.013"/>
+  <testcase name="badWeatherTestEmptyParameter()" classname="nl.tudelft.jpacman.level.MapParserTest" time="0.001"/>
+  <testcase name="testNoOtherMethod()" classname="nl.tudelft.jpacman.level.MapParserTest" time="0.005"/>
+  <testcase name="badWeatherTestNoPath()" classname="nl.tudelft.jpacman.level.MapParserTest" time="0.001"/>
+  <testcase name="testPellet()" classname="nl.tudelft.jpacman.level.MapParserTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

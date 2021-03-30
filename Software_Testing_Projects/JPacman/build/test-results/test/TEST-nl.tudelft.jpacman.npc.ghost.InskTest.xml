@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.jpacman.npc.ghost.InskTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-03-25T04:11:02" hostname="Chenghaos-MacBook-Pro.local" time="0.088">
+  <properties/>
+  <testcase name="testMoveAway()" classname="nl.tudelft.jpacman.npc.ghost.InskTest" time="0.044"/>
+  <testcase name="testMoveCloser()" classname="nl.tudelft.jpacman.npc.ghost.InskTest" time="0.027"/>
+  <testcase name="testNotMove()" classname="nl.tudelft.jpacman.npc.ghost.InskTest" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

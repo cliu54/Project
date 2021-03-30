@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.jpacman.npc.ghost.BoardTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-03-25T04:11:02" hostname="Chenghaos-MacBook-Pro.local" time="0.079">
+  <properties/>
+  <testcase name="testBoard(int, int, boolean)[1]" classname="nl.tudelft.jpacman.npc.ghost.BoardTest" time="0.031"/>
+  <testcase name="testBoard(int, int, boolean)[2]" classname="nl.tudelft.jpacman.npc.ghost.BoardTest" time="0.009"/>
+  <testcase name="testBoard(int, int, boolean)[3]" classname="nl.tudelft.jpacman.npc.ghost.BoardTest" time="0.006"/>
+  <testcase name="testBoard(int, int, boolean)[4]" classname="nl.tudelft.jpacman.npc.ghost.BoardTest" time="0.01"/>
+  <testcase name="testBoard(int, int, boolean)[5]" classname="nl.tudelft.jpacman.npc.ghost.BoardTest" time="0.006"/>
+  <testcase name="testBoard(int, int, boolean)[6]" classname="nl.tudelft.jpacman.npc.ghost.BoardTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

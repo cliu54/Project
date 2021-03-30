@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.jpacman.board.DirectionTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-03-25T04:11:01" hostname="Chenghaos-MacBook-Pro.local" time="0.005">
+  <properties/>
+  <testcase name="testNorth()" classname="nl.tudelft.jpacman.board.DirectionTest" time="0.001"/>
+  <testcase name="testSouth()" classname="nl.tudelft.jpacman.board.DirectionTest" time="0.001"/>
+  <testcase name="testEast()" classname="nl.tudelft.jpacman.board.DirectionTest" time="0.001"/>
+  <testcase name="testWest()" classname="nl.tudelft.jpacman.board.DirectionTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

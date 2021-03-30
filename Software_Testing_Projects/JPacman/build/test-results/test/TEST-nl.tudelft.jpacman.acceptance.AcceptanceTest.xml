@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="nl.tudelft.jpacman.acceptance.AcceptanceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-03-25T04:10:57" hostname="Chenghaos-MacBook-Pro.local" time="3.048">
+  <properties/>
+  <testcase name="testConsumeGame()" classname="nl.tudelft.jpacman.acceptance.AcceptanceTest" time="2.256"/>
+  <testcase name="testPlayerTrapped()" classname="nl.tudelft.jpacman.acceptance.AcceptanceTest" time="0.085"/>
+  <testcase name="moveNoPelletNoScoreIncrease()" classname="nl.tudelft.jpacman.acceptance.AcceptanceTest" time="0.081"/>
+  <testcase name="testSuspendGame()" classname="nl.tudelft.jpacman.acceptance.AcceptanceTest" time="0.062"/>
+  <testcase name="testPlayerDead()" classname="nl.tudelft.jpacman.acceptance.AcceptanceTest" time="0.555"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

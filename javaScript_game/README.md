@@ -1,5 +1,10 @@
 # Project
-This is simple javascript game.
+Video Demo:
+https://youtu.be/7_49q3U95Jc
+
+-- This is simple javascript game.
+
+Rules:
 
 Operation: w for jump, a for left, d for right
 

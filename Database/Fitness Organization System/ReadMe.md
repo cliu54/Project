@@ -1,5 +1,7 @@
 This Database Project is to implement real-life fitness center database. 
 
+Written in PostgreSQL 10.
+
 Here is the brief description of the system:
 
 The organization consists of members for which we must track a name, fitness-center ID,

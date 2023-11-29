@@ -12,10 +12,10 @@ efficient caching of frequently accessed data. </p>
 workloads across multiple consumer instances.</p>
 
 #### Getting Started
-<p>To get started with the application first clone the repository using
+<p>*To get started with the application first clone the repository using
 <code>git clone</code></p>
 <p>
-Run <code>docker-compose up --build --scale transact=n</code> where n is the number of transaction servers you want started up which will spin up
+*Run <code>docker-compose up --build --scale transact=n</code> where n is the number of transaction servers you want started up which will spin up
 all the containers needed for the application</p>
 
 ##### Command Line

@@ -2,13 +2,13 @@
 This is an implementation of a highly scalable day trading application utilizing tools such as caching and load balancing.
 
 ### Technologies 
-<p>Utilized Express.js to develop scalable and robust web applications and broke down the application into Microservices, resulting in improved agility and scalability.</p>
-<p>Containerized resources across multiple nodes in the distributed system(docker).</p>
-<p>Utilized MongoDB and efficiently store and retrieve data in web applications</p>
-<p>Experienced in implementing Redis cache, leveraging its in-memory key-value store
+<p>*Utilized Express.js to develop scalable and robust web applications and broke down the application into Microservices, resulting in improved agility and scalability.</p>
+<p>*Containerized resources across multiple nodes in the distributed system(docker).</p>
+<p>*Utilized MongoDB and efficiently store and retrieve data in web applications</p>
+<p>*Experienced in implementing Redis cache, leveraging its in-memory key-value store
 capabilities to enhance application performance, reduce database load, and enable
 efficient caching of frequently accessed data. </p>
-<p>Skilled in utilizing Nginx load balancer to evenly distribute message processing
+<p>*Skilled in utilizing Nginx load balancer to evenly distribute message processing
 workloads across multiple consumer instances.</p>
 
 #### Getting Started
